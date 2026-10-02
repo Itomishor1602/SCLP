@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --site-bg: #f8fafc;
+  --site-text: #172033;
+  --section-bg: #f1f5f9;
+  --card-bg: #ffffff;
+  --muted-text: #64748b;
+}
+
+:root.dark {
+  color-scheme: dark;
+  --site-bg: #0b1220;
+  --site-text: #f1f5f9;
+  --section-bg: #0f172a;
+  --card-bg: #162238;
+  --muted-text: #cbd5e1;
+}
+
+body {
+  margin: 0;
+  background-color: var(--site-bg);
+  color: var(--site-text);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
