@@ -13,7 +13,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-[var(--card-bg)] dark:border-slate-700">
+    <footer className="border-t border-gray-200 `bg-[var(--card-bg)]` dark:border-slate-700">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
 
         {/* Parish Info */}

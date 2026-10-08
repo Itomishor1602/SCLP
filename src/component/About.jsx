@@ -10,7 +10,7 @@ function About() {
           <img
             src={about}
             alt="Great Saint Charles Lwanga Catholic Parish"
-            className="h-[400px] w-full rounded-2xl"
+            className="`h-[400px]` w-full rounded-2xl"
           />
         </div>
 
@@ -26,7 +26,7 @@ function About() {
 
           <p className="mt-6 leading-7 text-gray-600 dark:text-gray-300">
             Great Saint Charles Lwanga Catholic Parish is a community
-            of believers committed to growing in faith, worshipping
+            of catholic faithful committed to growing in faith, worshipping
             God, and serving one another.
           </p>
 
@@ -34,6 +34,14 @@ function About() {
             We welcome individuals and families to join us in
             celebrating the Eucharist, deepening their relationship
             with Christ, and participating in the life of the Church.
+          </p>
+
+          <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">
+            The parish is named after Saint Charles Lwanga, one of the Ugandan Martyrs who was burned to death in 1886 for his faith and defense of Christian youth. He was later canonized as the patron saint of youth and Catholic action in Africa.
+          </p>
+
+          <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">
+            SCLP was established 50 years ago to serve the growing Catholic community in the Essien Town, Calabar, Operating under the Metropolitan Archdiocese of Calabar.
           </p>
 
           {/* <a

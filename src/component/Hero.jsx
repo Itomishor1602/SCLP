@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
       {/* Hero section */}
-      <section className="relative h-[70vh] min-h-[400px] w-full overflow-hidden shadow-lg">
+      <section className="relative h-[70vh] `min-h-[400px]` w-full overflow-hidden shadow-lg">
         {/* Hero image */}
         <img
           src={heroImage}
@@ -37,7 +37,7 @@ function Hero() {
       </section>
 
       {/* Mass times section */}
-      <section className="bg-[var(--section-bg)] px-4 py-16">
+      <section className="`bg-[var(--section-bg)]` px-4 py-16">
         <div className="mx-auto max-w-6xl text-center">
 
           {/* Section heading */}
@@ -45,7 +45,7 @@ function Hero() {
             Worship with Us
           </h2>
 
-          <p className="mt-3 text-[var(--muted-text)] md:text-lg">
+          <p className="mt-3 `text-[var(--muted-text)]` md:text-lg">
             Join our parish community for Holy Mass and other spiritual
             activities.
           </p>
@@ -54,12 +54,12 @@ function Hero() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
             {/* Sunday Mass */}
-            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="rounded-2xl `bg-[var(--card-bg)]` p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
               <h3 className="text-xl font-bold">
                 Sunday Mass
               </h3>
 
-              <div className="mt-4 space-y-2 text-[var(--muted-text)]">
+              <div className="mt-4 space-y-2 `text-[var(--muted-text)]`">
                 <p>6:30 AM</p>
                 <p>9:30 AM</p>
                 <p>6:00 PM</p>
@@ -67,12 +67,12 @@ function Hero() {
             </div>
 
             {/* Weekday Mass */}
-            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="rounded-2xl `bg-[var(--card-bg)]` p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
               <h3 className="text-xl font-bold">
                 Weekday Mass
               </h3>
 
-              <p className="mt-4 text-[var(--muted-text)]">
+              <p className="mt-4 `text-[var(--muted-text)]`">
                 Every weekday
               </p>
 
@@ -82,12 +82,12 @@ function Hero() {
             </div>
 
             {/* Saturday Mass */}
-            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="rounded-2xl `bg-[var(--card-bg)]` p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
               <h3 className="text-xl font-bold">
                 Saturday Mass
               </h3>
 
-              <p className="mt-4 text-[var(--muted-text)]">
+              <p className="mt-4 `text-[var(--muted-text)]`">
                 Every Saturday morning
               </p>
 
@@ -97,12 +97,12 @@ function Hero() {
             </div>
 
             {/* Confession */}
-            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="rounded-2xl `bg-[var(--card-bg)]` p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
               <h3 className="text-xl font-bold">
                 Confession
               </h3>
 
-              <p className="mt-4 text-[var(--muted-text)]">
+              <p className="mt-4 `text-[var(--muted-text)]`">
                 Every Saturday
               </p>
 
@@ -112,12 +112,12 @@ function Hero() {
             </div>
 
             {/* Benediction */}
-            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="rounded-2xl `bg-[var(--card-bg)]` p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
               <h3 className="text-xl font-bold">
                 Benediction
               </h3>
 
-              <p className="mt-4 text-[var(--muted-text)]">
+              <p className="mt-4 `text-[var(--muted-text)]`">
                 Every Saturday
               </p>
 
@@ -127,12 +127,12 @@ function Hero() {
             </div>
 
             {/* Office Hours */}
-            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <div className="rounded-2xl `bg-[var(--card-bg)]` p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
               <h3 className="text-xl font-bold">
                 Office Hours
               </h3>
 
-              <p className="mt-4 text-[var(--muted-text)]">
+              <p className="mt-4 `text-[var(--muted-text)]`">
                 Monday to Friday
               </p>
 

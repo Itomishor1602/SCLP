@@ -1,6 +1,6 @@
 import pastor1 from "../assets/pptwo.jpg";
 import pastor2 from "../assets/beks.jpg";
-// import pastor3 from "../assets/pastor3.jpg";
+import pastor3 from "../assets/app.webp";
 
 const pastors = [
   {
@@ -14,9 +14,9 @@ const pastors = [
     image: pastor2,
   },
   {
-    name: "Rev. Fr. Michael Doe",
+    name: "Rev. Fr. Anthony Ekpo",
     role: "Assistant Parish Priest II",
-    // image: pastor3,
+    image: pastor3,
   },
 ];
 
@@ -47,7 +47,7 @@ function Pastors() {
           {pastors.map((pastor) => (
             <article
               key={pastor.name}
-              className="overflow-hidden rounded-2xl bg-[var(--card-bg)] shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+              className="overflow-hidden rounded-2xl `bg-[var(--card-bg)]` shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               {/* Pastor image */}
               <img
