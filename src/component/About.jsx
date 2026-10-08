@@ -1,3 +1,5 @@
+import about from "../assets/about.jpg";
+
 function About() {
   return (
     <section id="about" className="px-6 py-20">
@@ -6,9 +8,9 @@ function About() {
         {/* Image */}
         <div>
           <img
-            src=""
+            src={about}
             alt="Great Saint Charles Lwanga Catholic Parish"
-            className="h-[400px] w-full rounded-2xl object-cover"
+            className="h-[400px] w-full rounded-2xl"
           />
         </div>
 

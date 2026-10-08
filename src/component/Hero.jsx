@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero.jpg";
+import heroImage from "../assets/hero.webp";
 
 function Hero() {
   return (
@@ -123,6 +123,21 @@ function Hero() {
 
               <p className="mt-2">
                 After Confession
+              </p>
+            </div>
+
+            {/* Office Hours */}
+            <div className="rounded-2xl bg-[var(--card-bg)] p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+              <h3 className="text-xl font-bold">
+                Office Hours
+              </h3>
+
+              <p className="mt-4 text-[var(--muted-text)]">
+                Monday to Friday
+              </p>
+
+              <p className="mt-2">
+                9AM to 2PM
               </p>
             </div>
 

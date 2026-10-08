@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faInstagram,
-  faYoutube,
+  faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
@@ -89,10 +89,10 @@ function Footer() {
             <div className="flex items-center gap-3">
               <Phone className="shrink-0 text-amber-600" size={20} />
               <a
-                href="tel:+2340000000000"
+                href="tel:+2348130364244"
                 className="hover:text-amber-600"
               >
-                +234 000 000 0000
+                +234 813 036 4244
               </a>
             </div>
 
@@ -102,7 +102,7 @@ function Footer() {
                 href="mailto:parish@example.com"
                 className="hover:text-amber-600"
               >
-                parish@example.com
+                sclpcalabar@gmail.com
               </a>
             </div>
 
@@ -113,7 +113,7 @@ function Footer() {
 
       <div className="mt-6 flex gap-4">
   <a
-    href="#"
+    href="https://web.facebook.com/people/sclpcalabar/61581628177673/?_rdc=1&_rdr#"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Facebook"
@@ -123,7 +123,7 @@ function Footer() {
   </a>
 
   <a
-    href="#"
+    href="https://www.instagram.com/sclpcalabar/"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
@@ -133,13 +133,13 @@ function Footer() {
   </a>
 
   <a
-    href="#"
+    href="https://www.tiktok.com/@sclpcalabar"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="YouTube"
+    aria-label="Tiktok"
     className="rounded-full p-3 transition hover:bg-amber-100 hover:text-amber-600 dark:hover:bg-slate-700"
   >
-    <FontAwesomeIcon icon={faYoutube} />
+    <FontAwesomeIcon icon={faTiktok} />
   </a>
 </div>
 
