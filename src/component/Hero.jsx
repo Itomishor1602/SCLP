@@ -20,7 +20,7 @@ function Hero() {
           <h1 className="text-3xl font-bold md:text-5xl lg:text-6xl">
             Welcome to Great Saint Charles Lwanga
             <br className="hidden sm:block" />
-            Catholic Parish
+              Catholic Parish
           </h1>
 
           <p className="mt-4 max-w-2xl text-base md:text-xl">
