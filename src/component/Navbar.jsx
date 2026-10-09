@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import logo from "../assets/logo.jpg";
-// import dark from "../assets/darklogo.png"; 
+import dark from "../assets/darklogo.png"; 
 
 const Navbar = ({ theme, toggleTheme }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = ({ theme, toggleTheme }) => {
         {/* Logo */}
         <a href="#home" onClick={closeMenu}>
           <img
-            src={logo}
+            src={theme === "light" ? logo : dark}
             alt="Great Saint Charles Lwanga Catholic Parish logo"
             className="h-full w-20 rounded-lg object-cover "
           />
