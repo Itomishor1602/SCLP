@@ -18,9 +18,7 @@ function Hero() {
         {/* Text on image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white">
           <h1 className="text-3xl font-bold md:text-5xl lg:text-6xl">
-            Welcome to Great Saint Charles Lwanga
-            <br className="hidden sm:block" />
-              Catholic Parish
+            Welcome to Great Saint Charles Lwanga <br className="hidden sm:block" /> Catholic Parish
           </h1>
 
           <p className="mt-4 max-w-2xl text-base md:text-xl">
